@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Cinchoo.PGP;
 using System.IO;
+using System.Resources;
 
 namespace PGPtest1
 {
@@ -38,7 +39,7 @@ namespace PGPtest1
                     using (Stream output = File.OpenWrite("SampleData.PGP"))
                     {
                         //pgp.CompressionAlgorithm = ChoCompressionAlgorithm.Zip;
-                        pgp.EncryptAndSign(input, output, @"C:\Users\enushka-home\source\repos\PGPtest1\Pub.asc", @"C:\Users\enushka-home\source\repos\PGPtest1\Pri.asc", "123456789", true, false);
+                        pgp.EncryptAndSign(input, output, @"C:\Users\enushka-home\source\repos\PGPtest1\Pub.asc", "Sample_Pri.asc", "123456789", true, false);
                     }
                 }
             }
@@ -60,7 +61,7 @@ namespace PGPtest1
                     using (Stream output = File.OpenWrite("SampleData.PGP"))
                     {
                         //pgp.CompressionAlgorithm = ChoCompressionAlgorithm.Zip;
-                        pgp.Encrypt(input, output, "Pub.asc", true, false);
+                        pgp.Encrypt(input, output, "pub.asc", true, true);
 
                     }
                     Console.WriteLine("PGP Encrypt.");

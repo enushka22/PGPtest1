@@ -8,3 +8,5 @@ C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.csproj.CoreCompil
 C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.csproj.CopyComplete
 C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.exe
 C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.pdb
+C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.Resource1.resources
+C:\Users\enushka-home\source\repos\PGPtest1\obj\Debug\PGPtest1.csproj.GenerateResource.cache
